@@ -17,7 +17,7 @@ Using a GitHub App provides several advantages over PATs:
 - Tokens expire after 1 hour, reducing security risks of leaked tokens. 
 - We can set fine-grained permissions: Only grant the exact permissions needed
 
-# How To Use It
+# Setup
 
 1. Create a GitHub App for the stfc organization (this has been done already for STFC Cloud)
   - set appropriate permissions. For an authentication app, we don't need callbacks or webhooks
