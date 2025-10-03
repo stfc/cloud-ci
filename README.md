@@ -3,6 +3,8 @@
 STFC Cloud Github App README
 This Repo Details info on our GitHub App for cloud-specific CI/CD Jobs 
 
+Cloud App: https://github.com/organizations/stfc/settings/apps/stfc-cloud-ci
+
 # Overview
 
 The STFC Cloud make use of a Github App for authenticating our CI/CD pipelines instead of Personal Access Tokens (PATs).
