@@ -56,7 +56,8 @@ But we can also use this to:
 
 # Security Notes
 
-- The App generates a private key which must be shared outside of select repos. Also in Keeper as well.
+- The App generates a private key which must NOT be shared outside of select repos. Place it in in Keeper as well.
 - Generating an App requires stfc organization permissions.
 - Make sure to select specific repos to prevent unintended access to other repos (i.e. those made by teams outside cloud).
+- Cross-repo CI jobs are possible with Apps but be careful when implementing permissions so to not introduce vulnerabilities
 - Generate the token just before usage - so the token stays valid.
